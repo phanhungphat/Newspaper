@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
   <title>19DH110102 - Newspaper</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -22,12 +24,56 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="../fontawesome-free/css/all.min.css">
+  <script src="../fontawesome-free/js/all.js"></script>
+  <script src="../fontawesome-free/js/all.min.js"></script>
+
+  <link rel="stylesheet" href="main.css">
   <script src="app.js"></script>
 </head>
 
 <body>
-  
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-sm">
+          <div class="container-fluid">
+            <div class="row">
+              <i style="margin-left: 10px;" class="fab fa-facebook-square fa-2x"></i>
+              <i style="margin-left: 10px;" class="fab fa-instagram-square fa-2x"></i>
+              <i style="margin-left: 10px;" class="fab fa-youtube-square fa-2x"></i>
+              <i style="margin-left: 10px;" class="fab fa-twitter-square fa-2x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <a class="blog-header-logo text-dark align-items-center" href="#"
+            style="font-family: 'Cabin Sketch', cursive; font-size: xx-large;">j0nhC3n4phpNews</a>
+        </div>
+        <div id="btn-login" class="col-sm justify-content-end">
+          <div class="row">
+            <div class="col">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="search...">
+                <div class="input-group-append">
+                  <button class="btn btn-info" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <a class="btn btn-md btn-outline-success" href="#">Sign up</a>
+              <a class="btn btn-md btn-outline-danger" href="#">Sign in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <hr style="border: 0.2px solid black;">
+  </div>
 </body>
 
 </html>
